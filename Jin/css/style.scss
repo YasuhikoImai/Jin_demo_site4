@@ -1,0 +1,1839 @@
+$iphone5se:320px;
+$xperia:360px;
+$iphone6:375px;
+$lg:384px;
+$pixel:411px;
+$iphone6plus:414px;
+$iphone4:480px;
+$nokia520:520px;
+$iphone5:568px;
+$nexus7tw:600px;
+$gyalaxyS5:640px;
+$iphone8:667px;
+$nexus6p:731px;
+$iphone8plus:736px;
+$galaxys9:740px;
+$ipad:767px;
+$nexus10:800px;
+$iphone10:812px;
+$pixel2xl:823px;
+$ipadpro10:834px;
+$galaxynote9:846px;
+$nokiaN9:850px;
+$iphone11:896px;
+$nexus7:960px;
+$ipadtw:1024px;
+$ipadpro10tw:1110px;
+$ipadpro11tw:1190px;
+$desktop:1200px;
+
+@mixin iphone4se {
+  @media(min-width:($iphone5se))and(min-height:($iphone4)) {
+    @content;
+  }
+}
+
+@mixin nokialumia {
+  @media(min-width:($iphone5se))and(min-height:($nokia520)) {
+    @content;
+  }
+}
+
+@mixin iphone5se {
+  @media(min-width:($iphone5se)) {
+    @content;
+  }
+}
+
+@mixin xperia {
+  @media(min-width:($xperia)) {
+    @content;
+  }
+}
+
+@mixin galaxys9plus {
+  @media(min-width:($xperia))and(min-height:($galaxys9)) {
+    @content;
+  }
+}
+
+@mixin iphone6 {
+  @media(min-width:($iphone6)) {
+    @content;
+  }
+}
+
+@mixin iphonex {
+  @media(min-width:($iphone6))and(min-height:($iphone10)) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media(min-width:($lg)) {
+    @content;
+  }
+}
+
+@mixin pixel {
+  @media(min-width:($pixel)) {
+    @content;
+  }
+}
+
+@mixin pixel2xltw {
+  @media(min-width:($pixel))and(min-height:($pixel2xl)) {
+    @content;
+  }
+}
+
+@mixin iphone6plus {
+  @media(min-width:($iphone6plus)) {
+    @content;
+  }
+}
+
+@mixin galaxynote9plus {
+  @media(min-width:($iphone6plus))and(min-height:($galaxynote9)) {
+    @content;
+  }
+}
+
+@mixin iphone11tw {
+  @media(min-width:($iphone6plus))and(min-height:($iphone11)) {
+    @content;
+  }
+}
+
+@mixin iphone4 {
+  @media(min-width:($iphone4)) {
+    @content;
+  }
+}
+
+@mixin nokian9tw {
+  @media(min-width:($iphone4))and(min-height:($nokiaN9)) {
+    @content;
+  }
+}
+
+@mixin iphone5 {
+  @media(min-width:($iphone5)) {
+    @content;
+  }
+}
+
+@mixin nokia520 {
+  @media(min-width:($nokia520)) {
+    @content;
+  }
+}
+
+@mixin nexus7tw {
+  @media(min-width:($nexus7tw)) {
+    @content;
+  }
+}
+
+@mixin gyalaxyS5 {
+  @media(min-width:($gyalaxyS5)) {
+    @content;
+  }
+}
+
+@mixin iphone8 {
+  @media(min-width:($iphone8)) {
+    @content;
+  }
+}
+
+@mixin pixel2 {
+  @media(min-width:($nexus6p)) {
+    @content;
+  }
+}
+
+@mixin iphone8plus {
+  @media(min-width:($iphone8plus)) {
+    @content;
+  }
+}
+
+@mixin ipad {
+  @media(min-width:($ipad)) {
+    @content;
+  }
+}
+
+@mixin nexus10 {
+  @media(min-width:($nexus10)) {
+    @content;
+  }
+}
+
+@mixin iphone10 {
+  @media(min-width:($iphone10)) {
+    @content;
+  }
+}
+
+@mixin pixel2xl {
+  @media(min-width:($pixel2xl)) {
+    @content;
+  }
+}
+
+@mixin ipadpro10 {
+  @media(min-width:($ipadpro10)) {
+    @content;
+  }
+}
+
+@mixin galaxynote9 {
+  @media(min-width:($galaxynote9)) {
+    @content;
+  }
+}
+
+@mixin nokiaN9 {
+  @media(min-width:($nokiaN9)) {
+    @content;
+  }
+}
+
+@mixin iphone11 {
+  @media(min-width:($iphone11)) {
+    @content;
+  }
+}
+
+@mixin nexus7 {
+  @media(min-width:($nexus7)) {
+    @content;
+  }
+}
+
+@mixin ipadmini {
+  @media(min-width:($ipadtw))and(max-height:($ipad)) {
+    @content;
+  }
+}
+
+@mixin ipadtw {
+  @media(min-width:($ipadtw)) {
+    @content;
+  }
+}
+
+@mixin ipadpro10tw {
+  @media(min-width:($ipadpro10tw)) {
+    @content;
+  }
+}
+
+@mixin ipadpro11tw {
+  @media(min-width:($ipadpro11tw)) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media(min-width:($desktop)) {
+    @content;
+  }
+}
+
+@mixin nexus10tw {
+  @media(min-width:($desktop))and(max-height:($nexus10)) {
+    @content;
+  }
+}
+
+body{
+font-family:
+Quicksand,"Noto Sans JP";
+}
+
+// グローバルナビ
+
+  label {
+    width: 44px;
+    height: 41px;
+    padding: 12px 8px 8px;
+    margin: 0;
+    position: absolute;
+    top: 4px;
+    right: 3px;
+    transition: 0.4s;
+    z-index: 500;
+    cursor: pointer;
+    @keyframes content-show {
+      0% {
+        opacity: 0
+      }
+ 
+      100% {
+        opacity: 1;
+      }
+    }
+ 
+    opacity:0;
+    animation: content-show 0.6s ease 0.6s forwards;
+
+    .bars {
+      position: relative;
+
+      span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #0d0015;
+        position: absolute;
+        transition: 0.5s;
+      }
+
+      .bar1 {
+        top: 0;
+      }
+
+      .bar2 {
+        top: 7px;
+        opacity: 1;
+        transform: translateX(0);
+      }
+
+      .bar3 {
+        top: 14px;
+      }
+    }
+  }
+
+  .close-menu {
+    .bar1 {
+      top: 7px !important;
+      transform: rotate(45deg);
+    }
+
+    .bar3 {
+      transform: rotate(-45deg);
+      top: 7px !important;
+    }
+
+    .bar2 {
+      transform: translateX(-28px) !important;
+      opacity: 0 !important;
+      visibility: hidden;
+    }
+
+
+  }
+  .menu-box {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.6);
+    top: 0;
+    backdrop-filter: blur(12px);
+    display: block;
+    transform:translateY(-100%);
+    transition: 0.5s;
+    font-family: "Quicksand",
+    "Noto Sans JP";
+    .h1{
+      text-align: center;
+      margin-bottom: 0;
+      margin-top: 50px;
+      font-size: 25.6px;
+      font-weight: 400;
+      height: 32px;
+      line-height: 32px;
+      letter-spacing:  1px;
+      position: relative;
+      top: -1px;
+    }
+    nav{
+      margin-top: 30px;
+      height: 100%;
+      ul{
+        width: 100%;
+        padding:0 7%;
+        margin: 0;
+        height: 60%;
+        transform: translateY(-1px);
+        li{
+          
+          a{
+            padding: 8px 8px 8px 28px;
+          letter-spacing: 1px;
+          position: relative;
+          font-weight: 400;
+          display: block;
+            color: #0d0015;
+            line-height: 20px;
+            &:hover{
+              text-decoration: none;
+            }
+            &::before{
+              content: "•";
+              position: absolute;
+              left:13px;
+              font-size: 26px;
+              top: 8px;
+              color: #9acc1d;
+            }
+          }
+          
+        
+        }
+      }
+    }
+  }
+  .menu-show{
+    transform: translateY(0);
+  }
+  .slide-wrapper{
+    transition: 0.6s;
+    transform: translateY(0);
+   
+    @include ipad{
+      transition: 0s;
+    }
+
+    // ヘッダー１
+
+.header1{
+padding-top: 10px;
+@include ipad(){
+  padding: 0;
+}
+.site-info{
+  margin-bottom: 12px;
+  text-align: center;
+  transform: translateY(-60px);
+  opacity: 0;
+  @include iphone4(){
+padding:  50px 0;
+margin-bottom: 10px;
+
+  }
+  @include ipad(){
+    transform: translateY(10px);
+    margin: 0;
+    line-height: 20px;
+  }
+  a{
+    display: block;
+    color: #0d0015;
+    font-size: 19.2px;
+    font-weight: 400;
+    letter-spacing:  1px;
+    line-height: 24px;
+    cursor: pointer;
+    position: relative;
+  top: -1px;
+    @include iphone4(){
+   
+    }
+    @include ipad(){
+      font-size: 16.32px;
+      font-weight: 400;
+      letter-spacing: 3px;
+      line-height: 20px;
+    }
+    span{
+      color: #9acc1d;
+    }
+    &:hover{
+      text-decoration: none;
+    }
+  }
+
+}
+}
+
+// ヘッダー２
+
+.header2{
+padding-top: 10px;
+margin-bottom: 10px;
+text-align: center;
+width: 100%;
+@include iphone4(){
+}
+@include ipad(){
+  max-width: 1200px;
+  padding-top: 0;
+  margin-bottom: 0;
+  margin: 0 auto;
+}
+@include desktop(){
+
+}
+.site-info2{
+  max-width: 75%;
+  margin: auto;
+  font-size: 38.4px;
+  transform: translateY(-60px);
+  opacity: 0;
+  @include iphone6(){
+    width: 75%;
+  }
+  @include pixel(){
+    white-space: nowrap;
+  }
+  @include ipad(){
+    max-width: none;
+    width: 100%;
+    margin: 0 ;
+    transform: translateY(10px);
+    font-size: 32.64px;
+opacity: 0;
+  }
+  a{
+    color: #0d0015;
+ font-weight: 400;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    line-height: 48px;
+    top: -2px;
+
+    @include iphone4(){
+      padding: 50px 0;
+    }
+    @include ipad(){
+      letter-spacing: 3px;
+      display: block;
+      line-height: 41px;
+      padding: 50px 0;
+      top: -2px;
+
+
+    }
+    span{
+      color: #9acc1d;
+    }
+    &:hover{
+      text-decoration: none;
+    }
+  }
+
+}
+}
+
+// グローバルナビ２
+
+.nav-menu2{
+  padding-top:1px ;
+  display: none;
+  @include ipad(){
+    display: block;
+  }
+.fixed-content{
+  
+  @keyframes content-show {
+    0%{
+      opacity:0
+    }
+
+    100%{
+      opacity: 1;
+    }
+  }
+  opacity:0;
+  animation: content-show 0.6s ease 0.6s forwards;
+  ul{
+    margin: 0 auto;
+    list-style: none;
+    padding:  0;
+    display: table;
+    li{
+      display: inline-block !important;
+      margin: 0 ;
+      
+     
+      a{
+    padding: 12px 25px;
+    text-align: center;
+    display: block;
+    color: #0d0015;
+    font-size: 14px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+  position: relative;
+  line-height: 20px;
+    &::after{
+      content: "";
+      width: 80%;
+      height: 2px;
+      border-radius: 1px;
+      margin:auto;
+      position: absolute;
+      background-color: #0d0015;
+bottom:6px;
+right: 0;
+left: 0;
+transform: translateY(8px);
+transition: 0.5s;
+opacity: 0;
+
+    }
+    &:hover{
+      text-decoration: none;
+      &::after{
+transform: translateY(0px);
+opacity: 1;
+      }
+    }
+  
+  }
+  #review{
+    padding-left: 28px;
+  }
+  #contact{
+    padding-left: 28px;
+   
+  }
+  }
+}
+}
+}
+
+// メインコンテンツ
+
+.contents{
+  margin: 0px 15px;
+    padding-top: 10px;
+   @keyframes content-show {
+     0% {
+       opacity: 0
+     }
+
+     100% {
+       opacity: 1;
+     }
+   }
+
+   opacity:0;
+   animation: content-show 0.6s ease 0.6s forwards;
+  @include ipad{
+    margin: 21px 0px 10px 0;
+    padding: 10px 0 0 0;
+    overflow: hidden;
+  @keyframes content-slide-show {
+    0% {
+        transform: translateY(10px);
+
+      opacity: 0
+    }
+
+    100% {
+      opacity: 1;
+        transform: translateY(0px);
+
+    }
+  }
+  opacity: 0;
+  transform: translateY(10px);
+     animation: content-slide-show 0.8s ease 1s forwards;
+
+  }
+ 
+  @include desktop(){
+    width: 1200px;
+    margin: 21px auto 10px;
+  }
+  .main-contents{
+    padding-bottom: 14px;
+    @include ipad{
+      padding: 0;
+      margin: 0;
+      width: calc(66.66667% - 16.66667px);
+      float:left;
+      margin-left: 10px;
+    }
+    @include ipadtw(){
+      width: calc(67.5% - 50.25px);
+      margin-left: 30px;
+    }
+    .main-article{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      article{
+        margin-bottom: 15px;
+        position: relative;
+        font-family:"Noto Sans JP" !important;
+        width: 48.4%;
+        &:not(:nth-child(2n)){
+       margin-right: 3%;
+        }
+     a{
+
+       display: block;
+       box-shadow: 0 0 2px  rgba(0, 0, 0, 0.18);
+     transition: 0.3s;
+     transform: translateY(0);
+     text-decoration: none;
+     color: #0d0015;
+     border-radius: 2px;
+     height: 100%;
+     margin-bottom: 10px;
+     @include ipad(){
+      box-shadow: 0 1px 3px rgba(0,0,0,0.18);
+      margin-bottom: 20px;
+
+     }
+     &:hover{
+       box-shadow: 0 3px 18px 3px rgba(0,0,0,0.08) !important;
+     transform: translateY(-3px);
+     }
+    }
+     @include ipad(){
+       width: 48.5%;
+       margin-bottom: 20px;
+       &:not(:nth-child(2n)){
+        margin-right: 2.6%;
+         }
+     }
+     img{
+       width: 100%;
+       border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+     }
+     .article-body{
+       padding: 8px 11px 20px 11px;
+       @include ipad{
+         padding: 10px 17px 25px 17px;
+       }
+       @include ipadtw(){
+         padding-top: 15px;
+       }
+       .tag{
+        font-size: 10px;
+        padding: 2px 8px  3px 8px;
+        background-color: #9acc1e;
+        white-space: nowrap;
+        color: #fff;
+        font-weight: 500;
+        line-height: 15px;
+        position: absolute;
+        top: 7px;
+        left:7px;
+        border-radius: 20px;
+        @include ipad(){
+          padding: 3px 10px;
+          top: 11px;
+        left:11px;
+        margin-left: -1px;
+        letter-spacing: 0;
+        font-weight: 400;
+        }
+        @include ipadtw(){
+          font-size: 10.4px;
+          padding:5px 12px;
+        }
+      }
+       .article-text{
+         font-size: 12px;
+         margin-bottom: 10px;
+         font-weight: 500;
+         letter-spacing: 1px;
+         line-height: 1.1rem;
+         position: relative;
+         top: -1px;
+         @include ipad{
+           font-size: 14px;
+           font-weight: 400;
+           letter-spacing: 1px;
+           margin-bottom: 5px;
+           line-height: 20px;
+           top: 0px;
+         }
+         @include ipadtw(){
+           font-size: 18px;
+           line-height: 25px;
+         }
+       }
+     }
+     .time{
+       font-family: Quicksand,"Noto Sans JP",sans-serif;
+       width: 90%;
+       text-align: right;
+       font-size: 10.4px;
+       color: #888888;
+       letter-spacing: 1px;
+       padding: 7px 0;
+       position: absolute;
+       bottom: 0;
+       left: 5%;
+       @include ipad{
+         font-size: 0.75rem;
+         padding-top: 10px;
+         padding-bottom:10px;
+       }
+     }
+   }   
+    }
+
+    // ページネーション
+
+    .pager-top{
+      display: block !important;
+
+      ul{
+        margin: 20px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        list-style: none;
+        @include ipad(){
+          margin: 30px 0;
+        }
+        li{
+          font-family: Quicksand;
+          
+          margin: 0 4px;
+      
+        
+
+            a{
+              transition: 0.4s;
+              transform: translateY(0);
+             min-width: 34px;
+          min-height: 34px;
+         
+          padding: 4px 3px 4px 5px;
+              display: flex;
+             ;
+              text-decoration: none;
+              border-radius: 20px;
+              align-items: center;
+              justify-content: center;
+              font-size: 0.85rem;
+              line-height: 0;
+              font-weight: 400;
+             @include ipad(){
+              min-width: 38px;
+              min-height: 37px;
+              padding-top: 5px;
+              box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+
+             }
+           span{
+           position: relative;
+           top: -1.5px;
+           right: 0.5px;
+           @include ipad(){
+             top: -1px;
+           }
+           }
+          }
+          .inactive{
+            background-color: #fff;
+            color: #888888;
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+            @include ipad(){
+              box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+
+            }
+            &:hover{
+              background-color: #0d0015;
+              opacity: 0.5;
+                        transform: translateY(-3px);
+                        color: #fff;
+          }
+          }
+          .current{
+            background-color: #0d0015;
+          color: #ffffff;
+          border: solid 1px #0d0015;
+          @include ipad(){
+            border: none;
+          }
+            &:hover{
+              background-color: #0d0015;
+              transform: translate(0);
+              opacity: 1;
+            }
+            
+         
+        
+      }
+         
+          }
+      }
+    }
+  }
+
+  // サイドバー
+
+.sidebar{
+  @include ipad{
+    margin: 0;
+    margin-left: 20px;
+    width: calc(33.33333% - 26.66667px);
+    float: left;
+  }
+  @include ipadtw(){
+    margin-left:30px;
+    width: calc(32.5% - 39.75px);
+    max-width: 350.25px;
+  }
+  .area-border{
+    width: 80px;
+  height: 2px;
+  margin: 30px auto 40px;
+  background-color: #2b2b2b;
+  opacity: 0.3;
+  border-radius: 1px;
+  position: relative;
+  top: 1px;
+  @include ipad(){
+    display: none;
+  }
+  &:before{
+    content: "・・・";
+    color: #2b2b2b;
+    position: absolute;
+right: 90px;
+top: -16px;
+font-size: 21px;
+letter-spacing: -6px;
+  }
+  &:after{
+    content: "・・・";
+    color: #2b2b2b;
+    position: absolute;
+left: 85px;
+top: -16px;
+font-size: 21px;
+letter-spacing: -6px;
+  }
+
+  }
+  .widget-text{
+    padding: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.18);
+    border-radius: 2px;
+         font-family:"Noto Sans JP" !important;
+@include ipad{
+  padding: 0;
+  padding-bottom: 20px;
+}
+    .textwidget{
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.18);
+        padding-bottom: 20px;
+        border-radius:2px;
+        box-sizing: border-box;
+        overflow: hidden;
+        @include ipad(){
+          padding: 0;
+          box-shadow: none;
+          border-radius: none;
+
+        } 
+.download-title{
+  font-size: 19.2px;
+  padding: 10px;
+  text-align: center;
+  background-color: #0d0015;
+  color: #ffff;
+  font-weight: 400;
+ letter-spacing: 0.9px;
+}
+p{
+  color: #0d0015;
+  letter-spacing: 1px;
+  font-size: 15.2px;
+  margin-bottom: 15.2px;
+  padding: 20px 20px 0;
+  line-height: 23px;
+  @include ipad(){
+    font-size: 13.6px;
+    font-weight: 300;
+    line-height: 20px;
+  }
+  img{
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+    @include ipad(){
+      margin-bottom: 0;
+    }
+  }
+}
+.download-link{
+  text-align: center;
+.btn{
+padding: 10px;
+width: 80%;
+margin-top: 4.8px;
+font-size:13.6px;
+text-align: center;
+color: #fff;
+background-color: #e22255;
+letter-spacing: 1px;
+border: double 3px #fff ;
+transition: 0.4s;
+@include ipad(){
+  margin-top: 5px;
+  font-weight: 300;
+}
+span{
+ 
+.svg-inline--fa{
+ font-size: 13.8px;
+ position: relative;
+ top: 0px;
+ @include ipad(){
+   top: 0;
+ }
+}
+}
+}
+&:hover{
+  opacity: 0.75;
+} 
+} 
+    }
+  }
+  .widget-profile{
+    font-family: "Noto Sans JP";
+    border-radius: 2px;
+    margin-bottom: 30px;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.18);
+        position: relative;
+        overflow: hidden;
+@include ipad{
+  padding: 15px;
+  margin-bottom: 20px;
+}
+@include ipadtw(){
+  padding: 30px;
+}  
+    .my-profile-body{
+          padding: 20px 20px 105px 20px;
+@include ipad{
+  padding: 0 5px 85px 5px;
+}
+
+    .my-profile-thumb{
+      margin: 0 auto;
+      margin-top: 10px;
+      text-align: center;
+      width: 110px;
+height: 110px;
+border-radius: 55px;
+box-shadow: 0  1px 3px  rgba(0, 0, 0, 0.18);
+overflow: hidden;
+a{
+  display: block;
+  img{
+        transition: 0.4s;
+width: 100%;
+height: auto;
+border-radius: 55px;
+box-sizing: border-box;
+}
+&:hover{
+ img{
+    transform: scale(1.1);
+ }
+}
+}
+  }
+        .myname{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+ position: absolute;
+ width: 100%;
+ left: 0;
+ right: 0;
+ top: 153px;
+ @include ipad{
+   top: 158px;
+ }
+        }
+        .myjob{
+          text-align: center;
+          font-size: 10.4px;
+          color: rgba(0, 0, 0, 0.35);
+          letter-spacing: 1.1px;
+          width: 100%;
+          position: absolute;
+          top: 180px;
+          left: 0;
+          right: 0;
+          font-weight: 300;
+          @include ipad(){
+            top: 185px;
+          }
+        }
+        .myintro{
+         margin-top: 70px;
+          font-size: 13.6px;
+        letter-spacing: 1px;
+        @include ipad{
+          margin-top: 75px;
+          font-weight: 300;
+        }
+        .proflink{
+text-align: center;
+        .btn{
+          font-size: 10.4px;
+          width: 50%;
+          background-color: #aaaaaa;
+          color: #ffffff;
+          padding: 7px 10px;
+          margin:20px auto 10px auto;
+          border: double 3px #fff;
+          @include ipad{
+            margin-bottom: 0;
+          }
+      }
+    }
+        }
+        .sns-menu{
+          width: 100%;
+          padding: 15px 0;
+          background-color: #9acc1e;
+          border-bottom-left-radius: 2px;
+          border-bottom-right-radius: 2px;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          .sns-menu-title{
+            height: 22px;
+            font-size:13.6px;
+            text-align: center;
+            color: #fff;
+            font-family: "Quicksand","Noto Sans JP";
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+          }
+          ul{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            li{
+              margin: 0;
+             
+              a{
+                display: block;
+                padding: 8px;
+                border-radius: 2px;
+                background-color: rgba(255, 255, 255, 0.18);
+                color: #ffffff;
+               margin: 0 4px;
+               width: 34px;
+               height: 32px;
+               overflow: hidden;
+               font-size: 16px;
+               transition: 0.4s;
+               &:hover{
+                 transform: scale(1.1);
+               }
+               .svg-inline--fa{
+                 vertical-align: 10px;
+               }
+               .fa-facebook-square{
+                 font-size: 19.5px;
+                 position: relative;
+                 top: -2px;
+               }
+               .fa-instagram{
+                 font-size: 19px;
+                 position: relative;
+                 top: -1.5px;
+                 right: 2.5px;
+                 @include ipad{
+                   right: 0;
+                 }
+               }
+               .line{
+                 position: relative;
+                 top: -7px;
+               }
+               .fa-twitter{
+                position: relative;
+top: -1px;
+font-size: 17px;
+               }
+              }
+       
+      
+    }
+  }
+}
+      }
+  }
+  .widget-item{
+    padding: 15px;
+    padding-top: 13px;
+    margin-bottom: 30px;
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.18);
+border-radius: 2px;
+font-family:Quicksand,"Noto Sans JP";
+@include ipad{
+  padding-top: 14px;
+  margin-bottom: 20px;
+}
+@include ipadtw{
+  padding: 30px;
+  padding-top: 28px;
+}
+.widget-title{
+  color: #0d0015;
+  font-size: 17.6px;
+  margin-bottom: 15px;
+  padding-bottom: 2px;
+  font-weight:400;
+  letter-spacing: 1px;
+  border-bottom: solid 2px #0d0015;
+  line-height: 24px;
+  @include ipad(){
+   font-size: 16px;
+   line-height: 21px;
+  }
+  @include ipadtw(){
+    font-size: 17.6px;
+    line-height: 24.5px;
+  }
+}
+
+// 最近の投稿
+
+ul{
+  font-family: "Noto Sans JP";
+  list-style: none;
+  padding: 0;
+display: block;
+  li{
+    
+    a{
+      overflow: hidden;
+      display: block;
+      padding: 10px 0;
+      border: 0px;
+             
+
+             background-color: #fff;
+      &:hover{
+        .new-entry-item{
+        h3{
+          color: #e22255;
+        }
+      }
+      }
+      .post-image{
+        width:calc( 37.5% );
+        float: left;
+        @include ipad{
+          width: calc(33.33333%);
+        }
+        img{
+          width: 100%;
+      }
+      }
+      .new-entry-item{
+        float:right;
+        width: 58.33333333333%;
+        @include ipad{
+          width: calc(62.5%);
+
+        }
+    h3{
+letter-spacing: 1px;
+      font-size: 13.6px;
+      margin-bottom: 0;
+      margin-top: 3px;
+      color: #0d0015;
+      line-height: 18px;
+      font-weight: 400;
+      transition: 0.3s;
+      @include ipad{
+        margin-top: 0;
+        line-height: 1.15rem;
+      }
+    }
+  }
+    }
+  }
+}
+  // カテゴリー検索
+
+#category-select{
+  position: relative;
+  &::after{
+    display: none;
+   font-family:"Font Awesome 5 Solid";
+   content: "\f078";
+   
+  }
+  svg{
+    position: absolute;
+    font-size: 20px;
+    top: calc(50% - 9px);
+    right: 10px;
+  }
+  select{
+    outline: none;
+    border-radius: 2px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(192,192,192,0.15);
+    border: 0;
+    color: #888888;
+   appearance: none;
+   line-height: 17px;
+   font-weight: 400;
+   vertical-align: top;
+   @include ipad(){
+     font-size: 14px;
+   }
+    
+  }
+}
+  
+  // タグ検索
+
+   .tagcloud{
+     position: relative;
+     top: -1.5px;
+     .tagcloudlink{
+       display: inline-table;
+       font-size: 10.4px;
+       color: #0d0015;
+       margin: 0 1px 3px 0;
+       padding: 4px 8px;
+       background-color: rgba(0,0,0,0.04);
+       border-radius: 2px;
+       font-family: "Noto Sans JP";
+       white-space: nowrap;
+       text-overflow: ellipsis;
+       transition: 0.3s;
+       line-height: 1rem;
+       @include ipad(){
+         line-height: 15px;
+         font-weight: 300;
+       }
+       @include ipadtw(){
+      margin-right: 1px;
+       }
+       &:hover{
+         text-decoration: none;
+         color: #fff;
+         background-color: #0d0015;
+       }
+     .fa-tag{
+      font-size: 13px;
+      padding-right: 3px;
+      vertical-align: top;
+      @include ipadtw{
+        padding-right: 3px;
+      }
+     }
+     }
+   }
+ 
+ form{
+   position: relative;
+   #searchtext{
+     outline: none;
+     width: 100%;
+     height: 34px;
+     padding: 0 40px 0 10px;
+     border-radius: 2px;
+     border: solid 1px #dddddd;
+     border-radius: 25px;
+     font-weight: 500;
+     font-family: "Noto Sans JP";
+     &:focus{
+       border-color: #3894c8;
+     }
+   }
+   #searchsubmit{
+     font-family: "FontAwesome";
+     font-weight: 900;
+     font-size: 18px;
+     position: absolute;
+     right: 12px;
+     top: 3px;
+     z-index: 1;
+     color: #acaaaa;
+     border: none;
+     background-color: transparent;
+     @include ipad(){
+       right: 3px;
+       font-weight: 300;
+       font-size: 16px;
+     }
+   }
+ }
+   
+  }
+}  
+}
+}
+
+// フッター
+
+  footer{
+    padding: 15px 0;
+    background-color: #393542;
+    color: #fff;
+    .footer-widget-area{
+      margin-bottom: 15px;
+
+      border-bottom:solid 1px #ffffff ;
+    .footer-widget{
+      padding: 25px 15px;
+      @include ipad{
+        display: flex;
+        padding-bottom: 0;
+        width: 100%;
+      }
+      @include desktop(){
+        width: 1200px;
+        margin: 0 auto ;
+        padding: 25px 30px 0;
+      }
+      .footer-widget-item{
+      
+      
+      .widget-text{
+        font-family: "Noto Sans JP";
+        margin-bottom: 45px;
+        @include ipad{
+       margin-bottom: 46px;
+        }
+             .text1{
+               margin-top: 15.2px;
+          font-size: 15.2px;
+          padding: 0px;
+          margin-bottom: 15.2px;
+          line-height: 1.55rem;
+          letter-spacing: 1px;
+          
+          @include ipad{
+            font-size: 13.6px;
+            margin: 13.6px 0;
+            font-weight: 300;
+            margin-bottom: 0;
+          }
+          img{
+            width: 120px;
+            height: 59.2px;
+            margin: 0 auto;
+            padding-top: 1px;
+            margin-bottom: 19px;
+            display: block;
+    @include ipad{
+      margin-bottom: 0px;
+    }
+            }
+      }
+      .after-text{
+        @include ipad{
+        margin-top: 12.6px;
+        }
+      }
+      .download-link{
+        margin: 31px 0 14.19px 0;
+        text-align: center;
+        @include ipad(){
+          margin-top: 30px;
+          margin-bottom: 13.6px;
+        }
+      .btn {
+        padding: 10px;
+        width: 80%;
+        
+        font-size: 15.2px;
+        color: #fff;
+        background-color: #e22255;
+        letter-spacing: 1px;
+        line-height: 21px;
+        
+        .svg-inline--fa {
+          font-size: 15px;
+          vertical-align: -2px;
+          @include ipad(){
+            font-size: 14px;
+            vertical-align: -3px;
+          }
+        }
+@include ipad{
+  font-size: 13.6px;
+  padding: 10px 15px;
+  margin: 0 auto ;
+  font-weight: 300;
+  line-height: 18px;
+}      
+
+        i {
+          margin-right: 4px;
+        }
+      }
+    }
+  }
+     .widget-cloud {
+       margin-bottom: 45px;
+       font-family: Quicksand,
+         "Noto Sans JP";
+
+       .widget-title {
+         color: #fff;
+         font-size: 17.6px;
+         margin-bottom: 15px;
+         padding-bottom: 13px;
+         font-weight: 400;
+         letter-spacing: 1px;
+         border-bottom: solid 2px #9acd3a;
+         line-height: 23px;
+
+         @include ipad{
+           font-size: 15.2px;
+           padding: 0 5px 0 10px;
+           border-bottom: 0;
+                    border-left: solid 3px #9acd3a;
+                    line-height: 1.15rem;
+                  font-size:   0.95rem;
+         }
+         span{
+           @include ipad(){
+           position: relative;
+           top: -1px;
+           }
+         }
+       }
+
+       .tagcloud {
+        margin-top: -1px;
+@include ipad{
+  margin-top: -1px;
+}
+         .tagcloudlink {
+           display: inline-table;
+           font-size: 10.4px;
+           color: #fff;
+           margin: 0 1px 3px 0;
+           padding: 4px 8px;
+           line-height: 16px;
+           background-color: rgba(0, 0, 0, 0.04);
+           border-radius: 2px;
+           font-family: "Noto Sans JP";
+           white-space: nowrap;
+           text-overflow: ellipsis;
+           transition: 0.4s;
+           font-weight: 400;
+           vertical-align: baseline;
+@include ipad{
+  font-weight: 300;
+
+  font-size: 10px;
+  background-color: rgba(255, 255, 255, 0.25);
+  line-height: 15px;
+  letter-spacing: 0;
+}
+           &:hover {
+             text-decoration: none;
+             color: #fff;
+             background-color: #0d0015;
+           }
+
+           .fa-tag {
+             font-size: 13px;
+             padding-right: 3px;
+           }
+         }
+       }
+     
+  
+      
+      ul{
+        border-radius: 0;
+        font-family: "Noto Sans JP";
+        margin: 0;
+       
+        li{
+          border-bottom: solid 1px #fff;
+          @include ipad{
+            border-bottom: none;
+          }
+        a{
+          width: calc(100% - 3px);
+          display: block;
+          color: #fff;
+          font-size: 13.6px;
+          letter-spacing: 1px;
+          font-weight: 500;
+          padding: 12px 40px 12px 28px;
+          position: relative;
+          transition: 0.4s;
+          transform: translateX(0);
+          line-height: 25px;
+          @include ipad{
+            font-size: 11.2px;
+            line-height: 16px;
+            padding: 7px 0 7px 15px;
+            font-weight: 400;
+          }
+          &:hover{
+            text-decoration: none;
+                      transform: translateX(3px);
+
+          }
+          &::before{
+            display: none;
+            font-family:"Font Awesome 5 Solid" ;
+            content: "\f138";
+            
+            @include ipad{
+              content:"\f105";
+             
+            }
+          }
+          svg{
+            position: absolute;
+            left: 7px;
+            font-size: 15px;
+            top: 15px;
+            @include ipad{
+              left: 1px;
+              top: 8px;
+              font-size: 18px;
+            }
+          }
+        }
+        &:last-child{
+          border-bottom: none;
+          a{
+           padding-bottom: 0px;
+           line-height: 24px;
+           @include ipad{
+             padding-bottom: 7px;
+             line-height: 16px;
+           }
+          }
+        }
+      }
+      .date{
+        a{
+svg{
+  top: 17px;
+  font-size: 15px;
+  @include ipad{
+    left: 1px;
+              top: 7px;
+              font-size: 18px;
+  }
+}
+        }
+        &:last-child{
+          border-bottom: none;
+          a{
+           padding-bottom: 11px;
+           line-height: 25px;
+           @include ipad{
+            padding-bottom: 7px;
+            line-height: 16px;
+          }
+          }
+        }
+      }
+      }
+ 
+        .post-list {
+          font-family: "Noto Sans JP";
+          @include ipad{
+            position: relative;
+            top: 0.5px;
+          }
+li{
+  border: none;
+          a {
+            width: 100%;
+            overflow: hidden;
+            display: block;
+            padding: 10px 0;
+            border: 0px;
+transition: 0.3s;
+text-decoration: none;
+
+     .post-image{ 
+      width: 37.5%;
+      float: left;
+      position: relative;
+      @include ipad(){
+        width: 33.3333%;
+      }
+span{
+  color: #fff;
+  font-size: 12px;
+width: 20px;
+height: 20px;
+background: #9acc1e;
+padding-top: 10px;
+line-height: 0;
+position: absolute;
+top: 0px;
+z-index: 1;
+text-align: center;
+@include ipad{
+  font-family: Quicksand,sans-serif;
+  padding-top: 8px;
+  font-size: 12px;
+}
+}
+            img {
+             width: 100%;
+              
+                
+            }
+          }
+          .new-entry-item{
+            width: 58.33333333333%;
+            float: right;
+            @include ipad{
+              font-weight: 400;
+              width: 62.5%;
+            }
+            h3 {
+              letter-spacing: 1px;
+              font-size: 13.6px;
+              margin-bottom: 0;
+              margin-top: 3px;
+              color: #ffffff;
+              line-height: 18px;
+              font-weight: 500;
+              @include ipad{
+                font-weight: 300;
+                margin-top: 0;
+              }
+            }
+          }
+          &:hover{
+            transform: translateX(0);
+          }
+          }
+          &:last-child{
+            a{
+              padding-bottom: 10px;
+            }
+          }
+
+        }
+      }
+    }
+    &:nth-child(1){
+      @include ipad(){
+        flex:0.8;
+      }
+    }
+    &:nth-child(2){
+      @include ipad(){
+        flex:1;
+      }
+      @include ipadtw(){
+        display: flex;
+        
+      }
+      .widget-cloud{
+        @include ipad(){
+          margin-left: 45px;
+        }
+        @include ipadtw(){
+          margin-bottom: 0;
+          flex: 1;
+        }
+      }
+    }
+    &:nth-child(3){
+      @include ipad(){
+        flex:1;
+        margin-left: 45px;
+      }
+    }
+  }
+    
+    
+    
+    }
+  }
+    .footer-copy{
+      font-family: "Noto Sans JP";
+      text-align: center;
+      font-size: 10.4px;
+      letter-spacing: 1px;
+      @include ipad{
+        font-size: 11.2px;
+        line-height: 17px;
+      }
+    }
+  }
+  .scroll-top{
+    width: 42px;
+    height: 42px;
+font-size: 32px;
+text-align: center;
+color: #ffffff;
+background-color: #393542;
+border-radius: 50%;
+position: fixed;
+z-index: 100;
+bottom: 24px;
+right:20px;
+cursor: pointer;
+@include ipad{
+  width: 45px;
+    height: 45px;
+    bottom: 22px;
+right:22px;
+}
+.fa-chevron-up{
+transform: translate(0px,-8px);
+font-size: 26px;
+
+}
+  }
+
+  // アニメーション
+
+  .info-slide{
+    @keyframes title-slide {
+      100%{
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    animation: title-slide 0.6s 0s forwards;
+    @include ipad (){
+    @keyframes title-slide {
+     100%{
+       transform: translateY(0);
+       opacity: 1;
+     } 
+    }
+  
+  animation: title-slide 0.6s  0.6s forwards;
+    }
+  }
+  .sliding{
+transform: translateY(16px);
+@include ipad{
+  transform: translateY(0px);
+}
+
+  }
+  
